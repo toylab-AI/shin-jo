@@ -1,0 +1,8 @@
+.tmp/
+.env
+credentials.json
+token.json
+.vscode/
+.idea/
+*.log
+node_modules/
