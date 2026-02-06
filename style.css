@@ -483,6 +483,10 @@ ul {
     z-index: 1;
 }
 
+.calc-info {
+    text-align: left;
+}
+
 .calc-info h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
