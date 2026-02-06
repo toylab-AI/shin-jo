@@ -35,14 +35,14 @@ body {
 }
 
 body.lang-cn {
-    --font-heading: "Noto Sans SC", sans-serif;
-    --font-body: "Noto Sans SC", sans-serif;
+    --font-heading: "Inter", "Noto Sans SC", sans-serif;
+    --font-body: "Inter", "Noto Sans SC", sans-serif;
     font-family: var(--font-body);
 }
 
 body.lang-jp {
-    --font-heading: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
-    --font-body: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
+    --font-heading: "Inter", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
+    --font-body: "Inter", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
     font-family: var(--font-body);
 }
 
