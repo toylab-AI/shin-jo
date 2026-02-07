@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&family=Noto+Sans+SC:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="stylesheet" href="style.css?v=2.1">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
@@ -255,8 +255,12 @@
                             <input type="text" data-placeholder="placeholder-name" placeholder="회사명을 입력하세요">
                         </div>
                         <div class="form-group">
+                            <label data-i18n="label-email">이메일</label>
+                            <input type="email" data-placeholder="placeholder-email" placeholder="이메일을 입력하세요">
+                        </div>
+                        <div class="form-group">
                             <label data-i18n="label-cargo">화물 종류</label>
-                            <select>
+                            <select class="cargo-select">
                                 <option data-i18n="opt-select">선택하세요</option>
                                 <option data-i18n="opt-steel">철강 / 금속</option>
                                 <option data-i18n="opt-elec">전자제품</option>
