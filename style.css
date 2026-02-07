@@ -536,7 +536,7 @@ ul {
 }
 
 .big-number {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
     color: var(--accent);
     display: block;
@@ -671,6 +671,10 @@ ul {
     .highlight-text {
         font-size: 1.05rem;
         margin-bottom: 1.5rem;
+    }
+
+    .big-number {
+        font-size: 2.2rem;
     }
 }
 
