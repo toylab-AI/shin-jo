@@ -1,8 +1,7 @@
-/* 
- * 수정일자: 2026-02-07 20:08
- * 수정내용: 절감액 배지 배경색 변경 및 카드 박스(calc-info) 중앙 정렬 적용
+/*
+ * 수정일자: 2026-02-07 20:12
+ * 수정내용: Section 3 가치 제안 카드별 고대비 배경색 적용 (Amber, Emerald, Rose)
  */
-
 :root {
     --primary: #A4D133;
     --primary-hover: #8eb82a;
@@ -582,6 +581,65 @@ ul {
     transform: translateX(10px);
     border-color: rgba(164, 209, 51, 0.6);
 }
+
+/* Section 3 카드별 개별 색상 (파란색 배경과 대비되는 고대비 색상) */
+.info-card.card-pkg {
+    background: rgba(245, 158, 11, 0.12);
+    /* Amber */
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.info-card.card-pkg::before {
+    background: #f59e0b;
+}
+
+.info-card.card-pkg .saving-amount {
+    color: #f59e0b;
+}
+
+.info-card.card-pkg .bar-fill {
+    background: #f59e0b;
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+
+.info-card.card-rust {
+    background: rgba(16, 185, 129, 0.12);
+    /* Emerald */
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.info-card.card-rust::before {
+    background: #10b981;
+}
+
+.info-card.card-rust .saving-amount {
+    color: #10b981;
+}
+
+.info-card.card-rust .bar-fill {
+    background: #10b981;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+}
+
+.info-card.card-log {
+    background: rgba(244, 63, 94, 0.12);
+    /* Rose/Red */
+    border-color: rgba(244, 63, 94, 0.3);
+}
+
+.info-card.card-log::before {
+    background: #f43f5e;
+}
+
+.info-card.card-log .saving-amount {
+    color: #f43f5e;
+}
+
+.info-card.card-log .bar-fill {
+    background: #f43f5e;
+    box-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
+}
+
 
 
 .info-header {
