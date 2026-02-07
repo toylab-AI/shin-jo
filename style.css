@@ -81,11 +81,10 @@ ul {
 
 .section-subtitle {
     text-align: left;
-    /* Changed from center to left */
     color: #000000;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    font-weight: 700;
     max-width: 900px;
-    /* Slightly wider for left alignment balance */
     margin: 0 auto 3rem;
     line-height: 1.6;
 }
@@ -696,13 +695,12 @@ ul {
 .tech-section .section-subtitle {
     text-align: left;
     color: #000000;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    font-weight: 700;
     margin-bottom: 3rem;
     line-height: 1.8;
     max-width: none;
-    /* Remove the 900px constraint to align with title */
     margin-left: 0;
-    /* Remove the auto margin to align with title */
 }
 
 .tech-grid {
