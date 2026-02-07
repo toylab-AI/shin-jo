@@ -1,7 +1,8 @@
 /*
- * 수정일자: 2026-02-07 20:12
- * 수정내용: Section 3 가치 제안 카드별 고대비 배경색 적용 (Amber, Emerald, Rose)
+ * 수정일자: 2026-02-07 20:20
+ * 수정내용: Section 1~2 사이 여백 제거 및 회색 점선 구분선 추가
  */
+
 :root {
     --primary: #A4D133;
     --primary-hover: #8eb82a;
@@ -313,7 +314,10 @@ ul {
 
 /* Comparison Section */
 .comparison-section {
-    padding: 5rem 0;
+    padding: 0 0 5rem;
+    /* 상단 여백 제거 */
+    border-top: 1px dotted #cbd5e1;
+    /* 회색 점선 추가 */
 }
 
 /* Comparison Section Specifics */
