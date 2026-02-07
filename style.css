@@ -314,8 +314,8 @@ ul {
 
 /* Comparison Section */
 .comparison-section {
-    padding: 2.5rem 0 3rem;
-    /* 상단 5rem -> 2.5rem 축소, 하단 1.5rem -> 3rem 확대 */
+    padding: 1.25rem 0 3rem;
+    /* 상단 2.5rem -> 1.25rem 추가 축소, 하단은 3rem 유지 */
 }
 
 /* Comparison Section Specifics */
