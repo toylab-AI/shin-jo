@@ -314,8 +314,8 @@ ul {
 
 /* Comparison Section */
 .comparison-section {
-    padding: 1.25rem 0 3rem;
-    /* 상단 2.5rem -> 1.25rem 추가 축소, 하단은 3rem 유지 */
+    padding: 2.5rem 0 3rem;
+    /* 상단 1.25rem -> 2.5rem 원상복귀 */
 }
 
 /* Comparison Section Specifics */
@@ -905,8 +905,8 @@ ul {
 
 /* ESG Section */
 .esg-section {
-    padding: 3rem 0 8rem;
-    /* 상단 1.5rem -> 3rem 확대 */
+    padding: 3rem 0 4rem;
+    /* 하단 8rem -> 4rem 축소 (섹션5-6 간격 축소) */
     /* Reduced top padding */
     background: #ffffff;
     border-top: 1px dotted #cbd5e1;
@@ -994,7 +994,8 @@ ul {
 
 /* Contact Section */
 .contact-section {
-    padding: 6rem 0;
+    padding: 3rem 0 6rem;
+    /* 상단 6rem -> 3rem 축소 (섹션5-6 간격 축소) */
     background: #e2e8f0;
     /* Lighter Slate Gray - Two steps lighter than #cbd5e1 */
     color: #0f172a;
