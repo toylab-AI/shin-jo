@@ -525,6 +525,16 @@ ul {
     backdrop-filter: none;
 }
 
+.calc-badge {
+    text-align: center;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+
 .big-number {
     font-size: 3.5rem;
     font-weight: 800;
