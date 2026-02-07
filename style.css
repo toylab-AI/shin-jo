@@ -630,12 +630,26 @@ ul {
 
     .info-card {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
+        align-items: stretch;
+        gap: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .info-icon {
+        align-self: flex-start;
+    }
+
+    .info-details {
+        width: 100%;
     }
 
     .saving-tag {
         align-self: flex-end;
+        margin-top: 0.5rem;
+    }
+
+    .calc-info h3 {
+        font-size: 2rem;
     }
 }
 
