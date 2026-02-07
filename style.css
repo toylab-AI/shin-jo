@@ -1306,7 +1306,9 @@ ul {
         right: 10px;
         bottom: 10px;
     }
-}/* 
+}
+
+/* 
  * News Section - Global Logistics Updates 
  * Added on 2026-02-07
  */
@@ -1350,6 +1352,10 @@ ul {
     padding: 1.5rem 0;
     border-bottom: 1px solid #e2e8f0;
     transition: background-color 0.2s ease;
+}
+
+.news-item:last-child {
+    border-bottom: none;
 }
 
 .news-item:hover {
