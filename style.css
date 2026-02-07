@@ -667,6 +667,11 @@ ul {
         font-size: 2.2rem;
         text-align: left;
     }
+
+    .highlight-text {
+        font-size: 1.05rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 /* Tech Section */
@@ -1145,6 +1150,10 @@ ul {
 
     .logo-text {
         font-size: 1.25rem;
+    }
+
+    .highlight-text {
+        font-size: 1rem;
     }
 
     .comparison-container {
