@@ -1306,4 +1306,127 @@ ul {
         right: 10px;
         bottom: 10px;
     }
+}/* 
+ * News Section - Global Logistics Updates 
+ * Added on 2026-02-07
+ */
+
+.news-section {
+    padding: 3rem 0;
+    /* Standard section padding */
+    background: #ffffff;
+    border-top: 1px dotted #cbd5e1;
+}
+
+.news-section .section-title {
+    text-align: left;
+    color: #000000 !important;
+    margin-bottom: 1rem;
+    max-width: none;
+    margin-left: 0;
+}
+
+.news-section .section-subtitle {
+    text-align: left;
+    color: #475569;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    max-width: none;
+    margin-left: 0;
+}
+
+.news-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* Using border-bottom instead of gap for list feel, or keep small gap */
+    border-top: 2px solid #0f172a;
+    /* Strong header line */
+}
+
+.news-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s ease;
+}
+
+.news-item:hover {
+    background-color: #f8fafc;
+    /* Slight hover highlight */
+    padding-left: 1rem;
+    /* Indent on hover for effect */
+    padding-right: 1rem;
+    border-radius: 4px;
+    margin-left: -1rem;
+    /* Counteract padding to keep alignment visually but expand bg */
+    margin-right: -1rem;
+    border-bottom-color: transparent;
+    /* Hide border on hover card effect */
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    /* Wrap on small screens */
+    gap: 0.5rem;
+}
+
+.news-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0f172a;
+    /* Dark slate */
+    margin: 0;
+}
+
+.news-date {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #64748b;
+    /* Muted text */
+    background: #f1f5f9;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.news-summary {
+    font-size: 1rem;
+    color: #334155;
+    /* Slightly lighter than title */
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .news-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+
+    .news-date {
+        font-size: 0.8rem;
+        padding: 0;
+        background: transparent;
+        margin-bottom: 0.5rem;
+    }
+
+    .news-title {
+        font-size: 1.1rem;
+    }
+
+    .news-item:hover {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: transparent;
+    }
 }
