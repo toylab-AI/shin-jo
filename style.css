@@ -1,7 +1,8 @@
 /*
- * 수정일자: 2026-02-07 20:28
- * 수정내용: 섹션 간 구분선 유지 및 약 2줄(3rem) 정도의 여백 추가
+ * 수정일자: 2026-02-07 20:32
+ * 수정내용: Tech Section 카드 이미지(tech-image-box) 높이 1/2 축소 (300px -> 150px)
  */
+
 :root {
     --primary: #A4D133;
     --primary-hover: #8eb82a;
@@ -819,8 +820,8 @@ ul {
 .tech-image-box {
     flex: 1;
     position: relative;
-    min-height: 300px;
-    /* Reduced height to 75% */
+    min-height: 150px;
+    /* 기존 300px에서 1/2 축소 */
 }
 
 .tech-image-box img {
@@ -857,7 +858,8 @@ ul {
 
     .tech-image-box {
         order: -1;
-        min-height: 300px;
+        min-height: 150px;
+        /* 모바일에서도 1/2 축소 적용 */
     }
 
     .tech-content {
