@@ -1189,17 +1189,19 @@ ul {
     }
 
     .tech-content {
-        padding: 2rem;
+        padding: 0.8rem 1.5rem;
         text-align: center;
     }
 
     .tech-card h3 {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
+        margin-bottom: 0.4rem;
     }
 
     .tech-card p {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
     }
 
     .tech-image-box {
