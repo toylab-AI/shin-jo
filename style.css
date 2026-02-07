@@ -1087,7 +1087,7 @@ ul {
     /* Tech Section */
     .tech-section .section-title,
     .tech-section .section-subtitle {
-        text-align: center;
+        text-align: left;
     }
 
     .tech-content {
