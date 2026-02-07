@@ -314,8 +314,8 @@ ul {
 
 /* Comparison Section */
 .comparison-section {
-    padding: 5rem 0 1.5rem;
-    /* 하단 1.5rem 여백 추가 */
+    padding: 2.5rem 0 3rem;
+    /* 상단 5rem -> 2.5rem 축소, 하단 1.5rem -> 3rem 확대 */
 }
 
 /* Comparison Section Specifics */
@@ -454,8 +454,8 @@ ul {
 
 /* Benefits Calculator */
 .benefits-section {
-    padding: 1.5rem 0 1.5rem;
-    /* 상/하단 1.5rem 여백 추가 */
+    padding: 3rem 0 3rem;
+    /* 상/하단 1.5rem -> 3rem 확대 */
     background: #ffffff;
     position: relative;
     overflow: hidden;
@@ -758,8 +758,8 @@ ul {
 
 /* Tech Section */
 .tech-section {
-    padding: 1.5rem 0 1.5rem;
-    /* 상/하단 1.5rem 여백 추가 */
+    padding: 3rem 0 3rem;
+    /* 상/하단 1.5rem -> 3rem 확대 */
     /* Reduced top padding from 8rem to 4rem */
     background: #f8fafc;
     border-top: 1px dotted #cbd5e1;
@@ -905,8 +905,8 @@ ul {
 
 /* ESG Section */
 .esg-section {
-    padding: 1.5rem 0 8rem;
-    /* 상단 1.5rem 여백 추가 */
+    padding: 3rem 0 8rem;
+    /* 상단 1.5rem -> 3rem 확대 */
     /* Reduced top padding */
     background: #ffffff;
     border-top: 1px dotted #cbd5e1;
