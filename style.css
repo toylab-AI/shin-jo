@@ -995,8 +995,8 @@ ul {
 /* Contact Section */
 .contact-section {
     padding: 6rem 0;
-    background: #cbd5e1;
-    /* Light Slate Gray - Two steps lighter than before */
+    background: #e2e8f0;
+    /* Lighter Slate Gray - Two steps lighter than #cbd5e1 */
     color: #0f172a;
 }
 
