@@ -1349,15 +1349,16 @@ ul {
 }
 
 .news-item {
-    padding: 1.5rem 0;
+    padding: 2.5rem 0;
+    /* More padding for vertical spacing */
     border-bottom: 1px solid #e2e8f0;
     transition: background-color 0.2s ease;
     display: flex;
-    /* Flex layout */
-    gap: 2rem;
-    /* Gap between image and content */
-    align-items: flex-start;
-    /* Align top */
+    flex-direction: column;
+    /* Stack vertically */
+    gap: 1rem;
+    align-items: stretch;
+    /* Full width */
 }
 
 .news-item:last-child {
@@ -1381,11 +1382,9 @@ ul {
 .news-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-    /* Wrap on small screens */
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .news-title {
@@ -1416,15 +1415,14 @@ ul {
 }
 
 .news-image-wrapper {
-    width: 25%;
-    /* 1/4 width */
-    height: 150px;
-    flex-shrink: 0;
-    /* Prevent shrinking */
+    width: 100%;
+    /* Full width */
+    height: 300px;
+    /* Larger height for main visual */
     border-radius: 12px;
     overflow: hidden;
-    /* Contain the image */
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
 }
 
 .news-image {
@@ -1434,32 +1432,19 @@ ul {
     display: block;
 }
 
-.news-content {
-    flex: 1;
-    /* Take remaining space */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
+/* .news-content removed as structure is flat now */
 
 
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
     .news-item {
-        display: flex !important;
-        flex-direction: column !important;
-        /* Stack on mobile */
-        gap: 1rem !important;
-        align-items: stretch !important;
+        padding: 2rem 0;
     }
 
     .news-image-wrapper {
-        width: 100% !important;
-        /* Full width */
-        height: 200px !important;
-        /* Fixed height for mobile */
-        margin-bottom: 0.5rem !important;
+        height: 200px;
+        /* Smaller height on mobile */
     }
 
     .news-content {
