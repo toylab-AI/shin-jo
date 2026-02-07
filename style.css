@@ -821,8 +821,8 @@ ul {
 .tech-image-box {
     flex: 1;
     position: relative;
-    min-height: 150px;
-    /* 기존 300px에서 1/2 축소 */
+    min-height: 75px;
+    /* 기존 150px에서 1/2 추가 축소 (총 75px) */
 }
 
 .tech-image-box img {
@@ -862,8 +862,8 @@ ul {
 
     .tech-image-box {
         order: -1;
-        min-height: 150px;
-        /* 모바일에서도 1/2 축소 적용 */
+        min-height: 75px;
+        /* 모바일에서도 1/2 축소 적용 (75px) */
     }
 
     .tech-content {
@@ -1203,7 +1203,7 @@ ul {
     }
 
     .tech-image-box {
-        min-height: 250px;
+        min-height: 125px;
     }
 
     .tech-image-box img {
