@@ -514,10 +514,10 @@ ul {
 
 .total-savings-badge .badge-label {
     background: transparent;
-    color: var(--accent);
+    color: #e11d48;
     font-size: 1.1rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     position: static;
     padding: 0;
     pointer-events: auto;
