@@ -108,7 +108,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(6, 78, 59, 0.95);
+    /* Dark Green */
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1081,7 +1082,8 @@ ul {
 }
 
 .site-footer {
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(6, 78, 59, 0.95);
+    /* Dark Green */
     backdrop-filter: blur(10px);
     padding: 3rem 0;
     /* Balanced padding */
