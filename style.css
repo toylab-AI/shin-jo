@@ -502,7 +502,7 @@ ul {
 }
 
 .total-savings-badge {
-    background: #ffffff;
+    background: #f3f4f6;
     padding: 0.8rem 2rem;
     border-radius: 15px;
     display: inline-flex;
@@ -673,7 +673,7 @@ ul {
     }
 
     .total-savings-badge {
-        background: #ffffff !important;
+        background: #f3f4f6 !important;
         padding: 0.6rem 1.5rem !important;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
     }
@@ -1172,7 +1172,7 @@ ul {
 
     /* Ensure total savings badge is white on small mobile */
     .total-savings-badge {
-        background: #ffffff !important;
+        background: #f3f4f6 !important;
         padding: 0.5rem 1.2rem !important;
         border-radius: 12px !important;
     }
