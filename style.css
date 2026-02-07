@@ -514,7 +514,7 @@ ul {
 
 .total-savings-badge .badge-label {
     background: transparent;
-    color: #e11d48;
+    color: #000000;
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 0.2rem;
@@ -535,7 +535,7 @@ ul {
 }
 
 .big-number {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: 800;
     color: #e11d48;
     display: block;
@@ -679,12 +679,12 @@ ul {
     }
 
     .badge-label {
-        color: #e11d48 !important;
+        color: #000000 !important;
         font-size: 0.95rem !important;
     }
 
     .big-number {
-        font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
         color: #e11d48 !important;
     }
 }
@@ -1177,7 +1177,10 @@ ul {
         border-radius: 12px !important;
     }
 
-    .badge-label,
+    .badge-label {
+        color: #000000 !important;
+    }
+
     .big-number {
         color: #e11d48 !important;
     }
