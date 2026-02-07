@@ -1,3 +1,8 @@
+/* 
+ * 수정일자: 2026-02-07 20:08
+ * 수정내용: 절감액 배지 배경색 변경 및 카드 박스(calc-info) 중앙 정렬 적용
+ */
+
 :root {
     --primary: #A4D133;
     --primary-hover: #8eb82a;
@@ -483,7 +488,7 @@ ul {
 }
 
 .calc-info {
-    text-align: left;
+    text-align: center;
 }
 
 .calc-info h3 {
@@ -502,7 +507,7 @@ ul {
 }
 
 .total-savings-badge {
-    background: #f0f0f0;
+    background: #f3f4f6;
     padding: 0.8rem 2rem;
     border-radius: 15px;
     display: inline-flex;
@@ -638,7 +643,7 @@ ul {
 @media (max-width: 768px) {
     .calculator-layout {
         grid-template-columns: 1fr;
-        text-align: left;
+        text-align: center;
     }
 
     .info-card {
@@ -664,7 +669,7 @@ ul {
 
     .calc-info h3 {
         font-size: 1.9rem;
-        text-align: left;
+        text-align: center;
     }
 
     .highlight-text {
@@ -673,7 +678,7 @@ ul {
     }
 
     .total-savings-badge {
-        background: #f0f0f0 !important;
+        background: #f3f4f6 !important;
         padding: 0.6rem 1.5rem !important;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
     }
