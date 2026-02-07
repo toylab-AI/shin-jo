@@ -1170,6 +1170,18 @@ ul {
         font-size: 1rem;
     }
 
+    /* Ensure total savings badge is white on small mobile */
+    .total-savings-badge {
+        background: #ffffff !important;
+        padding: 0.5rem 1.2rem !important;
+        border-radius: 12px !important;
+    }
+
+    .badge-label,
+    .big-number {
+        color: #e11d48 !important;
+    }
+
     .comparison-container {
         height: 250px;
     }
