@@ -69,7 +69,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "opt-gen": "일반 화물",
             "btn-submit": "상담 신청하기",
             "footer-info": "신조 로지텍 | 부산시 해운대구 센텀중앙로 90 | Copyright © 2026 Shin-Jo Logitech. All rights reserved.",
-            "placeholder-name": "회사명을 입력하세요"
+            "placeholder-name": "회사명을 입력하세요",
+            "news-title": "글로벌 물류 뉴스",
+            "news-subtitle": "2026년 2월, 한 주간의 주요 컨테이너 및 해운 물류 동향",
+            "news-1-t": "IMO, 2030 탄소 배출 감축 조기 달성 전망",
+            "news-1-s": "국제해사기구(IMO)는 최근 도입된 친환경 메탄올 추진 컨테이너선의 급격한 증가로 2030년 감축 목표가 2년 앞당겨질 수 있다고 밝혔습니다.",
+            "news-2-t": "범용 스마트 컨테이너 표준 'SC-2026' 발효",
+            "news-2-s": "전 세계 주요 선사가 합의한 새로운 IoT 통신 규격이 발효됨에 따라, 실시간 화물 추적의 정확도가 99.9%까지 향상되었습니다.",
+            "news-3-t": "북미 서안 항만, 완전 자동화 터미널 확장",
+            "news-3-s": "LA/LB 항만의 제3터미널이 완전 무인 자동화 시스템 업그레이드를 마치고 운영을 재개, 처리 속도가 기존 대비 40% 향상되었습니다.",
+            "news-4-t": "2026년 1분기 컨테이너 운임지수(SCFI) 안정세",
+            "news-4-s": "지난해 말 급등했던 해상 운임이 아시아-유럽 항로의 공급망 정상화에 힘입어 3주 연속 보합세를 유지하며 안정 구간에 진입했습니다.",
+            "news-5-t": "'종이 없는 무역' 가속화... e-BL 도입률 85%",
+            "news-5-s": "디지털 선하증권(e-BL)의 글로벌 도입률이 예상보다 빠르게 증가하며, 물류 서류 처리 시간이 평균 5일에서 4시간으로 대폭 단축되었습니다."
         },
         en: {
             "nav-tech": "Specs",
@@ -137,7 +149,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "opt-gen": "General",
             "btn-submit": "Submit Request",
             "footer-info": "Shin-Jo Logitech | Busan, Korea | © 2026 Shin-Jo Logitech.",
-            "placeholder-name": "Enter company name"
+            "placeholder-name": "Enter company name",
+            "news-title": "Global Logistics News",
+            "news-subtitle": "Feb 2026: Key trends in container and maritime logistics",
+            "news-1-t": "IMO Predicts Early Achievement of 2030 Carbon Goals",
+            "news-1-s": "The IMO states that the rapid adoption of eco-friendly methanol-powered vessels could bring forward the 2030 reduction targets by two years.",
+            "news-2-t": "Smart Container Standard 'SC-2026' in Effect",
+            "news-2-s": "With the new IoT communication standard agreed upon by major global carriers, real-time cargo tracking accuracy has improved to 99.9%.",
+            "news-3-t": "US West Coast Ports Expand Automated Terminals",
+            "news-3-s": "Terminal 3 at LA/LB ports has resumed operations after upgrading to a fully unmanned automated system, boosting processing speed by 40%.",
+            "news-4-t": "Q1 2026 Container Freight Index (SCFI) Stabilizes",
+            "news-4-s": "Sea freight rates, which spiked late last year, have entered a stable range with three consecutive weeks of flat growth due to supply chain normalization.",
+            "news-5-t": "Paperless Trade Accelerates... e-BL Adoption Hits 85%",
+            "news-5-s": "Global adoption of electronic Bills of Lading (e-BL) is rising faster than expected, slashing documentation processing time from 5 days to 4 hours."
         },
         jp: {
             "nav-tech": "技術仕様",
@@ -205,7 +229,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "opt-gen": "一般貨物",
             "btn-submit": "送信する",
             "footer-info": "Shin-Jo Logitech | 釜山広域市 | © 2026 Shin-Jo Logitech.",
-            "placeholder-name": "会社名を入力してください"
+            "placeholder-name": "会社名を入力してください",
+            "news-title": "グローバル物流ニュース",
+            "news-subtitle": "2026年2月、コンテナおよび海運物流の主要動向",
+            "news-1-t": "IMO、2030年炭素排出削減目標の早期達成を予測",
+            "news-1-s": "IMOは、環境に優しいメタノール推進コンテナ船の急増により、2030年の削減目標が2年前倒しで達成される可能性があると発表しました。",
+            "news-2-t": "汎用スマートコンテナ標準「SC-2026」発効",
+            "news-2-s": "世界の主要船社が合意した新しいIoT通信規格が発効し、リアルタイム貨物追跡の精度が99.9%まで向上しました。",
+            "news-3-t": "北米西岸港湾、完全自動化ターミナルを拡張",
+            "news-3-s": "LA/LB港の第3ターミナルが完全無人自動化システムのアップグレードを完了し運営を再開、処理速度が従来比40%向上しました。",
+            "news-4-t": "2026年第1四半期、コンテナ運賃指数(SCFI)が安定",
+            "news-4-s": "昨年末に急騰した海上運賃は、アジア-欧州航路のサプライチェーン正常化により、3週間連続で横ばいを維持し安定圏に入りました。",
+            "news-5-t": "「ペーパーレス貿易」加速…e-BL導入率85%",
+            "news-5-s": "電子船荷証券(e-BL)のグローバル導入率が予想以上に速く増加しており、物流書類処理時間が平均5日から4時間に大幅短縮されました。"
         },
         cn: {
             "nav-tech": "技术规格",
@@ -273,7 +309,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "opt-gen": "一般货物",
             "btn-submit": "提交申请",
             "footer-info": "新造智运 | 釜山 | © 2026 Shin-Jo Logitech.",
-            "placeholder-name": "请输入您的公司名称"
+            "placeholder-name": "请输入您的公司名称",
+            "news-title": "全球物流新闻",
+            "news-subtitle": "2026年2月，集装箱及海运物流的主要动态",
+            "news-1-t": "IMO预测2030年碳减排目标有望提前实现",
+            "news-1-s": "国际海事组织(IMO)表示，随着环保甲醇动力集装箱船的激增，2030年减排目标有望提前两年实现。",
+            "news-2-t": "通用智能集装箱标准 'SC-2026' 生效",
+            "news-2-s": "随着全球主要船公司达成一致的新IoT通信标准生效，实时货物追踪的准确率已提高至99.9%。",
+            "news-3-t": "北美西岸港口扩展全自动化码头",
+            "news-3-s": "洛杉矶/长滩港第3码头完成全无人自动化系统升级并恢复运营，处理速度较之前提高了40%。",
+            "news-4-t": "2026年第一季度集装箱运价指数(SCFI)趋稳",
+            "news-4-s": "得益于亚欧航线供应链的正常化，去年底飙升的海运费已连续三周保持持平，进入稳定区间。",
+            "news-5-t": "“无纸化贸易”加速... e-BL采用率达85%",
+            "news-5-s": "电子提单(e-BL)的全球采用率增长超预期，物流单证处理时间从平均5天大幅缩短至4小时。"
         }
     };
 
