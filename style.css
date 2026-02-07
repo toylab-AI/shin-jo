@@ -1,6 +1,6 @@
 /*
- * 수정일자: 2026-02-07 20:25
- * 수정내용: 섹션 간(2-3, 3-4, 4-5) 여백 제거 및 회색 점선 구분선 추가
+ * 수정일자: 2026-02-07 20:28
+ * 수정내용: 섹션 간 구분선 유지 및 약 2줄(3rem) 정도의 여백 추가
  */
 :root {
     --primary: #A4D133;
@@ -313,8 +313,8 @@ ul {
 
 /* Comparison Section */
 .comparison-section {
-    padding: 5rem 0 0;
-    /* 하단 여백 제거 */
+    padding: 5rem 0 1.5rem;
+    /* 하단 1.5rem 여백 추가 */
 }
 
 /* Comparison Section Specifics */
@@ -453,8 +453,8 @@ ul {
 
 /* Benefits Calculator */
 .benefits-section {
-    padding: 0 0 0;
-    /* 상/하단 여백 제거 */
+    padding: 1.5rem 0 1.5rem;
+    /* 상/하단 1.5rem 여백 추가 */
     background: #ffffff;
     position: relative;
     overflow: hidden;
@@ -757,8 +757,8 @@ ul {
 
 /* Tech Section */
 .tech-section {
-    padding: 0 0 0;
-    /* 상/하단 여백 제거 */
+    padding: 1.5rem 0 1.5rem;
+    /* 상/하단 1.5rem 여백 추가 */
     /* Reduced top padding from 8rem to 4rem */
     background: #f8fafc;
     border-top: 1px dotted #cbd5e1;
@@ -879,8 +879,8 @@ ul {
 
 /* ESG Section */
 .esg-section {
-    padding: 0 0 8rem;
-    /* 상단 여백 제거 */
+    padding: 1.5rem 0 8rem;
+    /* 상단 1.5rem 여백 추가 */
     /* Reduced top padding */
     background: #ffffff;
     border-top: 1px dotted #cbd5e1;
