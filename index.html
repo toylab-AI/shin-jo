@@ -93,49 +93,62 @@
 
                 <div class="calculator-layout">
                     <div class="calc-info">
-                        <h3 data-i18n="calc-heading">부식으로 인한 손실을 <br> 멈추십시요!!</h3>
-                        <p class="highlight-text" data-i18n="calc-highlight">비싼 포장재 및 방청 비용 Zero.<br>40FT 컨테이너 1회
-                            운송 시
+                        <h3 data-i18n="calc-heading">부식으로 인한 손실을 <br> 멈추십시오!!</h3>
+                        <p class="highlight-text" data-i18n="calc-highlight">비싼 포장재 및 방청 비용 Zero.<br>40FT 컨테이너 1회 운송 시
                             절감효과</p>
-                        <p data-i18n="calc-summary"><span class="big-number">540만 원</span></p>
+                        <div class="total-savings-badge">
+                            <span class="label" data-i18n="row-total">총 절감액</span>
+                            <span class="big-number" data-i18n="val-total-savings">540만 원</span>
+                        </div>
                     </div>
-                    <div class="calc-table-wrapper">
-                        <table class="calc-table">
-                            <thead>
-                                <tr>
-                                    <th data-i18n="th-cat">항목</th>
-                                    <th data-i18n="th-conv">일반 컨테이너</th>
-                                    <th data-i18n="th-es">ES 컨테이너</th>
-                                    <th data-i18n="th-save">절감액</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td data-i18n="row-pkg">포장 비용</td>
-                                    <td class="cost" data-i18n="val-pkg-cost">250만원</td>
-                                    <td class="saving" data-i18n="val-es-zero">0</td>
-                                    <td class="highlight-saving" data-i18n="sav-pkg">-250만원</td>
-                                </tr>
-                                <tr>
-                                    <td data-i18n="row-rust">방청 처리</td>
-                                    <td class="cost" data-i18n="val-rust-cost">200만원</td>
-                                    <td class="saving" data-i18n="val-es-zero">0</td>
-                                    <td class="highlight-saving" data-i18n="sav-rust">-200만원</td>
-                                </tr>
-                                <tr>
-                                    <td data-i18n="row-log">물류 관리</td>
-                                    <td class="cost" data-i18n="val-std">표준 비용</td>
-                                    <td class="saving" data-i18n="val-opt">최적화 완료</td>
-                                    <td class="highlight-saving" data-i18n="sav-log">-90만원</td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td data-i18n="row-total">총 절감액</td>
-                                    <td colspan="3" class="total-saving" data-i18n="val-total">회당 총 540만원 절감</td>
-                                </tr>
-                            </tfoot>
-                        </table>
+                    <div class="comparison-infographic">
+                        <!-- Item 1: Packaging -->
+                        <div class="info-card">
+                            <div class="info-icon">📦</div>
+                            <div class="info-details">
+                                <h4 data-i18n="row-pkg">포장 비용</h4>
+                                <div class="bar-wrapper">
+                                    <div class="bar-fill" style="width: 100%;"></div>
+                                </div>
+                                <div class="cost-comparison">
+                                    <span data-i18n="val-pkg-conv">일반: 250만원</span>
+                                    <span data-i18n="val-pkg-es">ES: 0원</span>
+                                </div>
+                            </div>
+                            <div class="saving-tag" data-i18n="sav-pkg">-250만원</div>
+                        </div>
+
+                        <!-- Item 2: Rust Prevention -->
+                        <div class="info-card">
+                            <div class="info-icon">🛡️</div>
+                            <div class="info-details">
+                                <h4 data-i18n="row-rust">방청 처리</h4>
+                                <div class="bar-wrapper">
+                                    <div class="bar-fill" style="width: 80%;"></div>
+                                </div>
+                                <div class="cost-comparison">
+                                    <span data-i18n="val-rust-conv">일반: 200만원</span>
+                                    <span data-i18n="val-rust-es">ES: 0원</span>
+                                </div>
+                            </div>
+                            <div class="saving-tag" data-i18n="sav-rust">-200만원</div>
+                        </div>
+
+                        <!-- Item 3: Logistics -->
+                        <div class="info-card">
+                            <div class="info-icon">⚡</div>
+                            <div class="info-details">
+                                <h4 data-i18n="row-log">물류 관리</h4>
+                                <div class="bar-wrapper">
+                                    <div class="bar-fill" style="width: 40%;"></div>
+                                </div>
+                                <div class="cost-comparison">
+                                    <span data-i18n="val-log-conv">표준 비용</span>
+                                    <span data-i18n="val-log-es">최적화 완료</span>
+                                </div>
+                            </div>
+                            <div class="saving-tag" data-i18n="sav-log">-90만원</div>
+                        </div>
                     </div>
                 </div>
             </div>
